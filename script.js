@@ -1,3 +1,7 @@
+import projectImg from "../ima/projects-img.png";
+
+
+
 // Typing Animation
 const typingContainer = document.getElementById("typing");
 const subtitles = [
@@ -144,7 +148,7 @@ const newProjects = [
     category: "Machine Learning",
     description: "Developed a CNN model to detect cancerous cells from blood cell images with 95% accuracy. Implemented using TensorFlow and Python with comprehensive data preprocessing and augmentation techniques.",
     tags: ["Python", "TensorFlow", "CNN", "Medical AI"],
-    image: "ima/projects-img.png",
+    image: "projectImg",
     live: "#",
     repo: "#"
   },
@@ -153,7 +157,7 @@ const newProjects = [
     category: "Full Stack Development",
     description: "A modern e-commerce solution with seamless checkout experience, real-time inventory management, and secure payment integration using Stripe API.",
     tags: ["React", "Node.js", "MongoDB", "Stripe"],
-    image: "ima/projects-img.png",
+    image: "projectImg",
     live: "#",
     repo: "#"
   },
@@ -162,7 +166,7 @@ const newProjects = [
     category: "Web Development",
     description: "Built a real-time chat application with WebSocket integration, featuring user authentication, group chats, and message encryption for enhanced security.",
     tags: ["React", "Socket.io", "Express", "JWT"],
-    image: "ima/projects-img.png",
+    image: "projectImg",
     live: "#",
     repo: "#"
   },
@@ -171,7 +175,7 @@ const newProjects = [
     category: "Data Analytics",
     description: "Interactive dashboard for real-time business metrics with customizable reporting features and advanced data filtering capabilities.",
     tags: ["D3.js", "Python", "PostgreSQL", "Flask"],
-    image: "ima/projects-img.png",
+    image: "projectImg",
     live: "#",
     repo: "#"
   }
