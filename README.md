@@ -1,4 +1,4 @@
-# 🌐 Abhinav Guntuku – Portfolio Website
+<img width="1919" height="912" alt="image" src="https://github.com/user-attachments/assets/3bb478eb-4e74-4735-a860-ba1de69f3da0" /># 🌐 Abhinav Guntuku – Portfolio Website
 
 Welcome to my personal portfolio website!  
 This website showcases my projects, skills, experience, and contact information.
@@ -6,8 +6,8 @@ This website showcases my projects, skills, experience, and contact information.
 ---
 
 ## 🚀 Live Demo
-🔗 https://yourdomain.com  
-(or GitHub Pages / Netlify / Vercel link)
+🔗 https://abhinavguntuku003.github.io/my-portfolio/
+
 
 ---
 
@@ -40,7 +40,10 @@ I enjoy building real-world projects and continuously improving my technical and
 
 ## 📸 Screenshots
 
-(Add screenshots of your portfolio website here)
+
+<img width="1919" height="912" alt="image" src="https://github.com/user-attachments/assets/39e1f6ab-9466-43a7-ae55-e758676f5e4f" />
+<img width="1919" height="911" alt="image" src="https://github.com/user-attachments/assets/8736f3df-4c7f-41a4-8015-273d635dcc2b" />
+
 
 ---
 
