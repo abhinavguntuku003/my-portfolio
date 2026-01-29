@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abhinav Guntuku - Portfolio</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<!-- Loader -->
+<div id="loader">
+  <div class="loader-animation"></div>
+</div>
+
+<!-- Navbar -->
+<nav class="navbar" data-aos="fade-down">
+  <div class="nav-left">
+    <h1 class="logo">&lt;A/G&gt;</h1>
+  </div>
+  <div class="nav-right">
+    <a href="#home">HOME</a>
+    <a href="#about">ABOUT</a>
+    <a href="#projects">PROJECTS</a>
+    <a href="#skills">SKILLS</a>
+    <a href="#contact">CONTACT</a>
+    <label class="dark-switch">
+      <input type="checkbox" id="darkToggle">
+      <span class="dark-slider"></span>
+    </label>
+    <button class="mobile-menu-toggle" id="mobileMenuToggle">
+      <i class="fas fa-bars"></i>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <button class="mobile-menu-close" id="mobileMenuClose">
+    <i class="fas fa-times"></i>
+  </button>
+  <div class="mobile-menu-links">
+    <a href="#home" class="mobile-link">HOME</a>
+    <a href="#about" class="mobile-link">ABOUT</a>
+    <a href="#projects" class="mobile-link">PROJECTS</a>
+    <a href="#skills" class="mobile-link">SKILLS</a>
+    <a href="#contact" class="mobile-link">CONTACT</a>
+  </div>
+</div>
+
+<!-- Hero Section -->
+<header id="home" class="fullscreen-section" data-aos="fade-up">
+  <section class="hero-split">
+    <div class="hero-text">
+      <p class="hi-line">Hi, I am</p>
+      <h1 class="hero-main-name">ABHINAV GUNTUKU</h1>
+      <h3 id="typing" class="hero-subtitle"></h3>
+      <div class="hero-buttons">
+        <button id="resume-button" class="cta primary">
+          <a href="ima/Abhinav's Latest Resume.pdf" target="_blank">
+            <i class="fas fa-file-download"></i> View Resume
+          </a>
+        </button>
+        <button class="cta secondary scroll-to-contact">
+          <span>Let's Talk <i class="fas fa-arrow-right"></i></span>
+        </button>
+      </div>
+
+      <div class="hero-icons-list">
+        <a href="https://www.linkedin.com/in/abhinav-guntuku" target="_blank" class="hero-icon" title="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/abhinavguntuku003" target="_blank" class="hero-icon" title="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.instagram.com/abhinav_guntuku/" target="_blank" class="hero-icon" title="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <div class="img-stylized-wrapper">
+        <img src="ima/DSC_0545.JPG" alt="Abhinav Guntuku profile">
+        <div class="img-glow"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Scroll Indicator -->
+  <!-- <div class="scroll-indicator">
+    <div class="mouse">
+      <div class="wheel"></div>
+    </div>
+    <p>Scroll Down</p>
+  </div> -->
+</header>
+
+<!-- About Section -->
+<section id="about" class="container section" data-aos="fade-up">
+  <h3 class="section-title">About Me</h3>
+  <div class="about-content">
+    <p class="bio">
+      I'm a passionate <strong>Computer Science Engineer</strong> with a focus on creating innovative solutions 
+      through technology. My expertise spans across <strong>Machine Learning, Web Development, and Data Engineering</strong>, 
+      with a keen interest in building impactful applications that solve real-world problems.
+    </p>
+    <p class="bio">
+      With experience in both <strong>frontend and backend development</strong>, I bring ideas to life through 
+      clean code and thoughtful design. I'm constantly learning and exploring new technologies to stay at 
+      the forefront of innovation.
+    </p>
+  </div>
+
+  <!-- Stats Section -->
+  <div class="stats-grid" data-aos="fade-up">
+    <div class="stat-card">
+      <div class="stat-number">10+</div>
+      <div class="stat-label">Projects Completed</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-number">5+</div>
+      <div class="stat-label">Technologies Mastered</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-number">2+</div>
+      <div class="stat-label">Years Learning</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-number">100%</div>
+      <div class="stat-label">Dedication</div>
+    </div>
+  </div>
+
+  <!-- Timeline -->
+  <section>
+    <div class="timeline" data-aos="fade-up">
+      <div class="timeline-item left">
+        <div class="timeline-content" data-aos="flip-left">
+          <div class="timeline-icon"><i class="fas fa-graduation-cap"></i></div>
+          <h3>EDUCATION</h3>
+          <p>Bachelor's in Computer Science and Engineering (CSE) from Keshav Memorial Institute of Technology, Hyderabad.</p>
+        </div>
+        <div class="timeline-dot"></div>
+      </div>
+
+      <div class="timeline-item right">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content" data-aos="flip-right">
+          <div class="timeline-icon"><i class="fas fa-briefcase"></i></div>
+          <h3>EXPERIENCE</h3>
+          <p>Content Moderator Intern at Genpact. Built multiple tech projects focusing on ML, web development, and data analytics.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item left">
+        <div class="timeline-content" data-aos="flip-left">
+          <div class="timeline-icon"><i class="fas fa-lightbulb"></i></div>
+          <h3>INTERESTS</h3>
+          <p>Exploring the intersections of AI, ML, and Data Engineering to build impactful solutions that make a difference.</p>
+        </div>
+        <div class="timeline-dot"></div>
+      </div>
+    </div>
+  </section>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="container section" data-aos="fade-up">
+  <h3 class="section-title">Featured Projects</h3>
+  <p class="section-subtitle">Showcasing my latest work and experiments</p>
+  
+  <!-- Projects Grid -->
+  <div class="new-projects-grid" id="newProjectsGrid"></div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="container section" data-aos="fade-up">
+  <h3 class="section-title">Skills & Technologies</h3>
+  <p class="section-subtitle">Tools and technologies I work with</p>
+  
+  <p class="skills-category"><i class="fas fa-code"></i> Currently Using</p>
+  <div class="skills-list" data-aos="fade-up">
+    <div class="skill" title="HTML5"><img src="ima/html.png" alt="HTML5"><span>HTML5</span></div>
+    <div class="skill" title="CSS3"><img src="ima/css-3.png" alt="CSS3"><span>CSS3</span></div>
+    <div class="skill" title="JavaScript"><img src="ima/js.png" alt="JavaScript"><span>JavaScript</span></div>
+    <div class="skill" title="React"><img src="ima/physics.png" alt="React"><span>React</span></div>
+    <div class="skill" title="Python"><img src="ima/python.png" alt="Python"><span>Python</span></div>
+    <div class="skill" title="Java"><img src="ima/java.png" alt="Java"><span>Java</span></div>
+    <div class="skill" title="MySQL"><img src="ima/mysql-database.png" alt="MySQL"><span>MySQL</span></div>
+  </div>
+
+  <p class="skills-category"><i class="fas fa-rocket"></i> Learning & Exploring</p>
+  <div class="skills-list" data-aos="fade-up">
+    <div class="skill" title="Node.js"><img src="ima/Node.js.png" alt="Node.js"><span>Node.js</span></div>
+    <div class="skill" title="TypeScript"><img src="ima/typescript.png" alt="TypeScript"><span>TypeScript</span></div>
+    <div class="skill" title="AWS"><img src="ima/aws-brands-solid-full.svg" alt="AWS"><span>AWS</span></div>
+    <div class="skill" title="Figma"><img src="ima/figma.png" alt="Figma"><span>Figma</span></div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+  <div class="contact-container" data-aos="fade-up">
+    <h2>Let's Create Something Together!</h2>
+    <p>Have a project in mind or want to collaborate? I'd love to hear from you.</p>
+    <form id="contactForm" class="contact-form">
+      <div class="form-group">
+        <input type="text" placeholder="Your Name" required>
+        <i class="fas fa-user"></i>
+      </div>
+      <div class="form-group">
+        <input type="email" placeholder="Your Email" required>
+        <i class="fas fa-envelope"></i>
+      </div>
+      <div class="form-group">
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <i class="fas fa-comment-dots"></i>
+      </div>
+      <button type="submit" class="submit-btn">
+        <span>Send Message</span>
+        <i class="fas fa-paper-plane"></i>
+      </button>
+    </form>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-content">
+    <button class="back-to-top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+    <div class="icon-list">
+      <a href="https://www.instagram.com/abhinav_guntuku/" target="_blank" aria-label="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/abhinav-guntuku" target="_blank" aria-label="LinkedIn">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+      <a href="https://github.com/Abhi-debut" target="_blank" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <p class="footer-text">Designed & Built by <strong>Abhinav Guntuku</strong></p>
+    <span>&copy; 2025 Abhinav Guntuku — All Rights Reserved</span>
+  </div>
+</footer>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
