@@ -140,10 +140,10 @@ mobileMenu.addEventListener("click", (e) => {
 // Projects data
 const newProjects = [
   {
-    title: "Deep Learning Cancer Detection",
-    category: "Machine Learning",
-    description: "Developed a CNN model to detect cancerous cells from blood cell images with 95% accuracy. Implemented using TensorFlow and Python with comprehensive data preprocessing and augmentation techniques.",
-    tags: ["Python", "TensorFlow", "CNN", "Medical AI"],
+    title: "URL Shortener",
+    category: "Full Stack",
+    description: "Built a full-stack URL Shortener using Flask and SQLite with custom short-code generation and redirection system, improving URL sharing efficiency. Implemented database persistence and deployed the application on cloud hosting.",
+    tags: ["Python", "Flask", "SQLite","HTML", "CSS","Js"],
     image: "ima/projects-img.png",
     live: "#",
     repo: "#"
